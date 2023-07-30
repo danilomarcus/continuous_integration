@@ -4,10 +4,10 @@ import "fmt"
 
 func main() {
 
-	fmt.Println(soma(10, 11))
+	fmt.Println(somar(10, 11))
 
 }
 
-func soma(a int, b int) int {
+func somar(a int, b int) int {
 	return a + b
 }
